@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GoTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black2</item>
+    </style>
+    
+    <style name="TextDegrees">
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textSize">96sp</item>
+        <item name="android:textColor">@color/black2</item>
+    </style>
+
+    <style name="TextCity">
+        <item name="android:fontFamily">@font/roboto_thin</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:textColor">@color/blue1</item>
+    </style>
+
+    <style name="TextError">
+        <item name="android:textColor">@color/white1</item>
+        <item name="android:textSize">54sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+
+    <style name="TextButton">
+        <item name="android:textColor">@color/white1</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/black1</item>
+    </style>
+
+</resources>
